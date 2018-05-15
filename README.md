@@ -20,6 +20,12 @@ New plugins are designed to be easy to contribute,
 we'll eagerly accept pull
 requests and will manage the set of plugins that Telegraf supports.
 
+to be able to add nvidia-smi plugin we should modity the default runtime to nvidia:
+sudo vim /etc/docker/daemon.json
+"default-runtime": "nvidia"
+
+
+
 ## Contributing
 
 There are many ways to contribute:
